@@ -73,9 +73,10 @@ header .navbar-default {
 
 .dragarea{
     background-color: #fff;
-    position: absolute;
-    height: 100%;
+    /*position: absolute;*/
+    /*height: 100%;*/
     border-radius: 6px;
+    min-height:200px;
 }
 
 #theDiv {
@@ -237,3 +238,14 @@ footer .row{
     color:#33333394;
 }
 
+/*comment section*/
+#comment-section{
+    opacity:0;
+}
+
+.comment-sec{
+    text-align: center;
+    font-size: 0.9em;
+    color: red;
+    font-weight: 500;
+}

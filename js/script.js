@@ -12,6 +12,9 @@ $(function(){
                 if(!event){
                     $('#section-drop').css({'filter': 'blur(5px)'});
                     $("#dialog-message").dialog("open");
+                    // comment section
+                    $('#comment-section').css({"opacity":"1"});
+                    $('#comment-section').addClass('comment-sec')
                 }
                 return !event;
             }
@@ -109,6 +112,7 @@ $(function(){
             $(this).find('h2').css({'color':'#fff'});
             $(this).append($(ui.draggable).clone());
             console.log(  $(this).find('h2').css({'background-color':'#4e5a59'}));
+
 
             var IDs = [];
             $("#droppable-items").find("button").each(function(){ IDs.push(this.id); });
