@@ -53,11 +53,6 @@ header .navbar-default {
 }
 
 
-
-
-
-
-
 #draggble-items{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -170,7 +165,7 @@ header .navbar-default {
 }
 
 #droppable-items button{
-    box-shadow: 0 15px 33px #fff;
+    /*box-shadow: 0 15px 33px #fff;*/
     /*border-style: dashed;*/
     font-size: 1.2em;
     border-radius: 14px;
@@ -200,43 +195,44 @@ footer .row{
 
 }
 
-/*Ui dialog*/
-.text-box {
-    /*these two lines do the magic */
-    color: transparent;
-    text-shadow: 0px 0px 1px #000000;
-}
-
-.blur {
-    text-shadow: 0px 0px 10px #000000;
-}
-/*.err-dlg {*/
-    /*font-size: 1.5em;*/
-    /*text-align: center*/
+/*!*Ui dialog*!*/
+/*.text-box {*/
+    /*!*these two lines do the magic *!*/
+    /*color: transparent;*/
+    /*text-shadow: 0px 0px 1px #000000;*/
 /*}*/
-.ui-dialog .ui-dialog-titlebar {
-    display: none
-}
-.ui-corner-all {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 5px
 
-}
-.ui-dialog .ui-dialog-content {
-    padding-top: 40px
-}
+/*.blur {*/
+    /*text-shadow: 0px 0px 10px #000000;*/
+/*}*/
+/*!*.err-dlg {*!*/
+    /*!*font-size: 1.5em;*!*/
+    /*!*text-align: center*!*/
+/*!*}*!*/
+/*.ui-dialog .ui-dialog-titlebar {*/
+    /*display: none*/
+/*}*/
+/*.ui-corner-all {*/
+    /*border: 2px solid rgb(0, 0, 0);*/
+    /*border-radius: 5px*/
 
-.closeButton{
-    width:100%;
-    padding:0;
-    color:#33333394;
-    outline-width: 0;
-}
+/*}*/
+/*.ui-dialog .ui-dialog-content {*/
+    /*padding-top: 40px*/
+/*}*/
 
-#dialog-message p{
-    /*text-align: center;*/
-    color:#33333394;
-}
+/*.closeButton{*/
+    /*width:100%;*/
+    /*padding:0;*/
+    /*color:#33333394;*/
+    /*outline-width: 0;*/
+/*}*/
+
+/*#dialog-message p{*/
+    /*!*text-align: center;*!*/
+    /*color:#33333394;*/
+/*}*/
+
 
 /*comment section*/
 #comment-section{
@@ -247,5 +243,12 @@ footer .row{
     text-align: center;
     font-size: 0.9em;
     color: red;
+    font-weight: 500;
+}
+
+.comment-success{
+    text-align: center;
+    font-size: 0.9em;
+    color: green;
     font-weight: 500;
 }
