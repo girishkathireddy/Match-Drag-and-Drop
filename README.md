@@ -5,7 +5,7 @@ Responive Web UI Mockup where the user must identify the parts of speech and dra
 
 ## Technologies
 ```
-jQuery UI, jquery, JavaScript, Bootstrap, CSS.
+jQuery UI, jQuery, JavaScript, Bootstrap, CSS.
 ```
 
 
